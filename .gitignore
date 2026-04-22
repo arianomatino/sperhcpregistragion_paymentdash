@@ -23,12 +23,12 @@ Thumbs.db
 .streamlit/config.toml
 
 # Dados do projeto (Excel/CSV)
-*.xlsx
-*.xls
-*.csv
+#*.xlsx
+#*.xls
+#|*.csv
 *.db
 *.sqlite
-dados/
+#dados/
 data/
 *.parquet
 
