@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE e Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Dados do projeto (Excel/CSV)
+*.xlsx
+*.xls
+*.csv
+*.db
+*.sqlite
+dados/
+data/
+*.parquet
+
+# Logs e cache
+*.log
+*.tmp
+*.temp
+__pycache__/
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# Ambiente e configurações
+.env
+.env.local
+*.pem
+*.key
