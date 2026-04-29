@@ -87,7 +87,7 @@ st.markdown("""
 st.markdown("""
 <div class="custom-header">
     <h1>📊 SPER & HCP Moçambique 2026 - Monitoria de Registos e Pagamentos</h1>
-    <p class="date">Registos e Pagamentos - Actualizado a 20-04-2026</p>
+    <p class="date">Registos e Pagamentos - Actualizado a 26-04-2026</p>
 </div>
 """, unsafe_allow_html=True)
 
