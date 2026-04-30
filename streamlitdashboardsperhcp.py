@@ -401,7 +401,7 @@ if not df.empty:
             fig4 = go.Figure()
             fig4.add_trace(go.Pie(labels=pagos_provincia['provincia'], 
                                    values=pagos_provincia['beneficiarios_pagos'],
-                                   textinfo='label+percent',
+                                   textinfo='label+value',
                                    textposition='auto',
                                    marker=dict(colors=px.colors.qualitative.Set3)))
             fig4.update_layout(title='Distribuição de Pagamentos por Província', 
