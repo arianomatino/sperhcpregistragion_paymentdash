@@ -214,7 +214,7 @@ def load_data():
     # Calculate percentages
     result_df['pct_total_registos'] = (result_df['total_registos'] / result_df['metas_distrito'] * 100).round(1)
     result_df['pct_contas_mpesa'] = (result_df['mpesa_abertas'] / result_df['metas_distrito'] * 100).round(1)
-    result_df['pct_beneficiarios_pagos'] = (result_df['beneficiarios_pagos'] / result_df['total_registos'].replace(0, np.nan) * 100).round(1).fillna(0)
+    result_df['pct_beneficiarios_pagos'] = (result_df['beneficiarios_pagos'] / result_df['metas_distrito'].replace(0, np.nan) * 100).round(1).fillna(0)
     
     return result_df
 
